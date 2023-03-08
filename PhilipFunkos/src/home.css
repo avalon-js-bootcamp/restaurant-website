@@ -1,0 +1,9 @@
+.home-header {
+  font-size: 4rem;
+}
+
+.home-about-us,
+.home-hours {
+  font-size: 2rem;
+  padding: 30px;
+}

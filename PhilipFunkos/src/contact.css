@@ -1,0 +1,18 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contact-header {
+  font-size: 4rem;
+}
+
+.contact-block {
+  border: solid 2px black;
+  padding: 40px;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
