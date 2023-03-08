@@ -1,51 +1,32 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Home from "./home";
 import Product from "./products";
 import Contact from "./contact";
 
 function App() {
-  function home() {
-    let page1 = document.querySelector(".home-page");
-    let page2 = document.querySelector(".products-page");
-    let page3 = document.querySelector(".contact-page");
-    page1.classList.remove("disable");
-    page2.classList.add("disable");
-    page3.classList.add("disable");
-  }
-  function product() {
-    let page1 = document.querySelector(".home-page");
-    let page2 = document.querySelector(".products-page");
-    let page3 = document.querySelector(".contact-page");
-    page2.classList.remove("disable");
-    page1.classList.add("disable");
-    page3.classList.add("disable");
-  }
-  function contact() {
-    let page1 = document.querySelector(".home-page");
-    let page2 = document.querySelector(".products-page");
-    let page3 = document.querySelector(".contact-page");
-    page3.classList.remove("disable");
-    page1.classList.add("disable");
-    page2.classList.add("disable");
-  }
+  const [page, setPage] = useState("Home");
+
+  const handleClick = (page) => {
+    setPage(page.target.className);
+  };
+
   return (
     <div className="App">
       <div className="tabs">
-        <div className="home" onClick={home}>
+        <div className="Home" onClick={handleClick}>
           Home
         </div>
-        <div className="product" onClick={product}>
+        <div className="Product" onClick={handleClick}>
           Products
         </div>
-        <div className="contant" onClick={contact}>
+        <div className="Contact" onClick={handleClick}>
           Contact
         </div>
       </div>
-      <Home />
-      <Product />
-      <Contact />
+      {page === "Home" && <Home />}
+      {page === "Product" && <Product />}
+      {page === "Contact" && <Contact />}
     </div>
   );
 }

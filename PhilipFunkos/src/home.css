@@ -1,14 +1,9 @@
 .home-header {
-  font-size: 50px;
-}
-.home-about-us {
-  padding: 30px;
+  font-size: 4rem;
 }
 
+.home-about-us,
 .home-hours {
+  font-size: 2rem;
   padding: 30px;
-}
-
-.disable {
-  display: none;
 }

@@ -2,10 +2,7 @@ import "./home.css";
 export default function Home() {
   return (
     <div className="home-page">
-      <div className="home-header">
-        Welcome to Philip's Funko Frenzy, your go-to destination for all things
-        Funko!
-      </div>
+      <div className="home-header">Philip's Funko Frenzy</div>
       <div className="home-about-us">
         At Philip's Funko Frenzy, we're passionate about all things Funko. We
         specialize in selling rare and hard-to-find Funko products that you
