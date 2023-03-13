@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-website",
+  "version": "1.0.0",
+  "description": "Project Description:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avalon-js-bootcamp/restaurant-website.git"
+  },
+  "author": "Shannon Sia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avalon-js-bootcamp/restaurant-website/issues"
+  },
+  "homepage": "https://github.com/avalon-js-bootcamp/restaurant-website#readme",
+  "devDependencies": {
+    "vite": "^4.1.4"
+  }
+}
