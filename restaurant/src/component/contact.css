@@ -1,0 +1,15 @@
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 30px;
+  gap: 30px;
+  background-image: url("C:\Users\DrPhi\Desktop\learning\restaurant\src\assets\teabg.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  min-height: 100vh;
+  color: #2e7d3299;
+}

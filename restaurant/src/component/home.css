@@ -1,0 +1,38 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-image: url("C:\Users\DrPhi\Desktop\learning\restaurant\src\assets\bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+}
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 4.5rem;
+  color: #2e7d3280;
+}
+
+.home-info {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding-left: 25%;
+  padding-right: 25%;
+  color: #2e7d32;
+}
+
+.working-hour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #2e7d32;
+}

@@ -1,0 +1,38 @@
+.menu-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("C:\Users\DrPhi\Desktop\learning\restaurant\src\assets\teabg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 300px;
+
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-card-name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2e7d3299;
+}
+
+.menu-card-info {
+  font-size: 1.5rem;
+  color: #757575;
+}
+
+.menu-card-price {
+  font-size: 1.5rem;
+  color: #2e7d3280;
+}

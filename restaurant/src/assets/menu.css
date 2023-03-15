@@ -1,0 +1,42 @@
+.menuheadpic {
+  background-image: url("menuteahead.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+.menu-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("teabg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 25%;
+
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.menu-card-name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgba(46, 125, 50, 0.6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-card-info {
+  font-size: 1.5rem;
+  color: rgba(117, 117, 117, 1);
+}
+.menu-card-price {
+  font-size: 1.5rem;
+  color: rgba(46, 125, 50, 0.5);
+}
