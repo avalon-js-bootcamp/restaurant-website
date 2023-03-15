@@ -1,8 +1,9 @@
 import "./App.css";
-import Home from "./assets/home";
-import Menu from "./assets/menu";
-import Contact from "./assets/contact";
+import Home from "./component/home";
+import Menu from "./component/menu";
+import Contact from "./component/contact";
 import { useState } from "react";
+
 function App() {
   const [page, setPage] = useState("home");
   const pageChange = (page) => {
@@ -10,7 +11,7 @@ function App() {
   };
   return (
     <div className="App">
-      <div className="Nav">
+      <div className="nav">
         <div className="home" onClick={pageChange}>
           Home
         </div>
